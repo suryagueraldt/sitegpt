@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surya Tatuador</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 900px;
+        }
+        h1, h2 {
+            color: #ff5722;
+        }
+        .portfolio img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        .testimonial {
+            border: 1px solid #ff5722;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #1f1f1f;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ff5722;
+            background-color: #1f1f1f;
+            color: #ffffff;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #ff5722;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        .social-links a {
+            color: #ff5722;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#curso">Curso</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#depoimentos">Depoimentos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <section id="sobre">
+        <h1>Sobre Mim</h1>
+        <p>Sou tatuador há 22 anos e já ganhei diversos prêmios em competições. Minha paixão pela arte da tatuagem se reflete em cada trabalho que realizo, sempre buscando a perfeição em cada linha e sombreado.</p>
+    </section>
+    <section id="curso">
+        <h2>Curso de Formação para Novos Tatuadores</h2>
+        <p>Ofereço um curso completo de formação para novos tatuadores, onde os alunos aprendem desde as técnicas básicas até as mais avançadas. O curso tem duração de 6 meses e inclui:</p>
+        <ul>
+            <li>História e ética da tatuagem</li>
+            <li>Desenho e técnicas de linha fina</li>
+            <li>Sombras e uso de preto e cinza</li>
+            <li>Práticas de higiene e segurança</li>
+            <li>Marketing e gerenciamento de estúdio</li>
+        </ul>
+        <p>Para mais informações sobre o curso, entre em contato através do formulário abaixo.</p>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <h2>Portfólio</h2>
+        <img src="imagem1.jpg" alt="Tatuagem exemplo 1">
+        <img src="imagem2.jpg" alt="Tatuagem exemplo 2">
+        <img src="imagem3.jpg" alt="Tatuagem exemplo 3">
+        <img src="imagem4.jpg" alt="Tatuagem exemplo 4">
+    </section>
+    <section id="depoimentos">
+        <h2>Depoimentos</h2>
+        <div class="testimonial">
+            <p>"Surya é um artista incrível! Sua atenção aos detalhes e precisão nas linhas finas são impressionantes. Recomendo a todos!" - Cliente A</p>
+        </div>
+        <div class="testimonial">
+            <p>"Fiz o curso de formação com o Surya e foi uma experiência transformadora. Aprendi muito e me sinto confiante para começar minha carreira como tatuador." - Aluno B</p>
+        </div>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="message" placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="social-links">
+            <a href="https://www.instagram.com/seuperfil">Instagram</a>
+            <a href="https://www.facebook.com/seuperfil">Facebook</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Surya Tatuador. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
